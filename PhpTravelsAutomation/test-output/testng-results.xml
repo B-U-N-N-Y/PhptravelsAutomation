@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2019-09-13T18:08:07Z" finished-at="2019-09-13T18:08:07Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="57167" started-at="2019-09-13T18:07:07Z" finished-at="2019-09-13T18:08:05Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="17817" started-at="2019-09-13T18:07:07Z" finished-at="2019-09-13T18:07:25Z">
+      <class name="com.atmecs.phptravels.testscripts.HomePageTestScript">
+        <test-method status="PASS" signature="landingPageValidation()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@6500df86]" name="landingPageValidation" duration-ms="219" started-at="2019-09-13T18:07:07Z" finished-at="2019-09-13T18:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageValidation -->
+        <test-method status="PASS" signature="invalidCheckinDate()[pri:1, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@6500df86]" name="invalidCheckinDate" duration-ms="8567" started-at="2019-09-13T18:07:08Z" finished-at="2019-09-13T18:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCheckinDate -->
+        <test-method status="PASS" signature="cityInputValidation()[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@6500df86]" name="cityInputValidation" duration-ms="3928" started-at="2019-09-13T18:07:16Z" finished-at="2019-09-13T18:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityInputValidation -->
+        <test-method status="PASS" signature="tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@6500df86]" name="tourSearch" duration-ms="3616" started-at="2019-09-13T18:07:22Z" data-provider="home_page_data" finished-at="2019-09-13T18:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27/09/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourSearch -->
+      </class> <!-- com.atmecs.phptravels.testscripts.HomePageTestScript -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="15156" started-at="2019-09-13T18:07:25Z" finished-at="2019-09-13T18:07:40Z">
+      <class name="com.atmecs.phptravels.testscripts.BookingOptionTestScript">
+        <test-method status="PASS" signature="BookingOption()[pri:3, instance:com.atmecs.phptravels.testscripts.BookingOptionTestScript@49993335]" name="BookingOption" duration-ms="15148" started-at="2019-09-13T18:07:25Z" finished-at="2019-09-13T18:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingOption -->
+      </class> <!-- com.atmecs.phptravels.testscripts.BookingOptionTestScript -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="12148" started-at="2019-09-13T18:07:40Z" finished-at="2019-09-13T18:07:53Z">
+      <class name="com.atmecs.phptravels.testscripts.BookingSummaryPageTest">
+        <test-method status="PASS" signature="personalDetailsInput([Ljava.lang.String;)[pri:4, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="personalDetailsInput" duration-ms="4452" started-at="2019-09-13T18:07:41Z" data-provider="personal_details" finished-at="2019-09-13T18:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6f95cd51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalDetailsInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="guestInfoInput" duration-ms="799" started-at="2019-09-13T18:07:45Z" data-provider="guest_details" finished-at="2019-09-13T18:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@9ec531]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="guestInfoInput" duration-ms="733" started-at="2019-09-13T18:07:46Z" data-provider="guest_details" finished-at="2019-09-13T18:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@40147317]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="guestInfoInput" duration-ms="713" started-at="2019-09-13T18:07:47Z" data-provider="guest_details" finished-at="2019-09-13T18:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@210f0cc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="guestInfoInput" duration-ms="564" started-at="2019-09-13T18:07:48Z" data-provider="guest_details" finished-at="2019-09-13T18:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@19542407]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestInfoInput -->
+        <test-method status="PASS" signature="amountValidateAfterAddingExtra()[pri:6, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="amountValidateAfterAddingExtra" duration-ms="95" started-at="2019-09-13T18:07:48Z" finished-at="2019-09-13T18:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountValidateAfterAddingExtra -->
+        <test-method status="PASS" signature="tourNameValidate()[pri:7, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="tourNameValidate" duration-ms="796" started-at="2019-09-13T18:07:48Z" finished-at="2019-09-13T18:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourNameValidate -->
+        <test-method status="PASS" signature="amountValidateBeforeAddingExtra()[pri:8, instance:com.atmecs.phptravels.testscripts.BookingSummaryPageTest@617faa95]" name="amountValidateBeforeAddingExtra" duration-ms="3528" started-at="2019-09-13T18:07:49Z" finished-at="2019-09-13T18:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountValidateBeforeAddingExtra -->
+      </class> <!-- com.atmecs.phptravels.testscripts.BookingSummaryPageTest -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="11962" started-at="2019-09-13T18:07:53Z" finished-at="2019-09-13T18:08:05Z">
+      <class name="com.atmecs.phptravels.testscripts.HomePageTestScript">
+        <test-method status="PASS" signature="processEnd()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@6500df86]" name="processEnd" is-config="true" duration-ms="1076" started-at="2019-09-13T18:08:05Z" finished-at="2019-09-13T18:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processEnd -->
+      </class> <!-- com.atmecs.phptravels.testscripts.HomePageTestScript -->
+      <class name="com.atmecs.phptravels.testscripts.InvoicePageTest">
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@71318ec4]" name="intitailizeBrowser" is-config="true" duration-ms="20132" started-at="2019-09-13T18:06:47Z" finished-at="2019-09-13T18:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="invoicePageValidate()[pri:9, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@71318ec4]" name="invoicePageValidate" duration-ms="11959" started-at="2019-09-13T18:07:53Z" finished-at="2019-09-13T18:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoicePageValidate -->
+      </class> <!-- com.atmecs.phptravels.testscripts.InvoicePageTest -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
