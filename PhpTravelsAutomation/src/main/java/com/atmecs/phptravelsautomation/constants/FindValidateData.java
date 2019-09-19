@@ -22,10 +22,10 @@ public class FindValidateData {
 		}
 	}
 /**
- * 
+ *  This method to get the Data for validation
  * @param key
- * @return Validate data from the property file
- * This method to get the Data for validation
+ * @return validation data
+ *
  */
 	public String getData(String key) {
 		String value = phptravelsvalidate.getProperty(key);

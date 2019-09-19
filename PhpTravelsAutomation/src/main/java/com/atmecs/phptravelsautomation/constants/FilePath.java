@@ -26,7 +26,10 @@ public class FilePath {
 	public final static String EXTENT_CONFIG = USER_HOME+"extent-config.xml";
 	public final static String JIRA_CONFIG= USER_HOME+"jiraConfig.properties";
 	public final static String LOG4J_FILE= RESOURCES_HOME+"log4j"+File.separator+"log4j.properties";
-	public final static String LOCATOR_FILE= LOCATOR_HOME+"phptravelslocators.properties";
+	public final static String HOME_PAGE_LOCATOR_FILE= LOCATOR_HOME+"homepage.properties";
+	public final static String BOOKING_OPTION_PAGE_LOCATOR_FILE= LOCATOR_HOME+"bookingoptionpage.properties";
+	public final static String BOOKING_SUMMARY_PAGE_LOCATOR_FILE= LOCATOR_HOME+"bookingsummarypage.properties";
+	public final static String INVOICE_PAGE_LOCATOR_FILE= LOCATOR_HOME+"invoicepage.properties";
 	public final static String VALIDATION_FILE= RESOURCES_HOME+"testdata"+File.separator+"validatedata.properties";
 	public final static String TESTDATA_FILE= RESOURCES_HOME+"testdata"+File.separator+"phptravelstestdata.xlsx";
     public final static String PRODUCT_TESTDATA=RESOURCES_HOME+"testdata"+File.separator+"productpageTestData.xlsx";

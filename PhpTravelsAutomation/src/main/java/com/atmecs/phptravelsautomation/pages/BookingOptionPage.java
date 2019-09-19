@@ -1,5 +1,6 @@
 package com.atmecs.phptravelsautomation.pages;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.atmecs.phptravelsautomation.constants.FindLocators;
@@ -19,13 +20,14 @@ public class BookingOptionPage {
 	 * 
 	 * @param loc
 	 */
-	public static void bookingPageTest(FindLocators loc) {
-		CommonUtility.clickElement(loc.getlocator("loc.tourdetails.btn"));
+	public static void bookingPageTest(WebDriver driver,FindLocators loc) {
+		
+		CommonUtility.clickElement(loc.getbookingoptionlocator("loc.tourdetails.btn"));
 		CommonUtility.scrollDownPage(5000);
-		CommonUtility.clickElement(loc.getlocator("loc.adults.dpdn"));
-		CommonUtility.clickElement(loc.getlocator("loc.adultsnumber.btn"));
-		CommonUtility.clickElement(loc.getlocator("loc.children.dpdn"));
-		CommonUtility.clickElement(loc.getlocator("loc.chilnumber.btn"));
+		CommonUtility.clickElement(loc.getbookingoptionlocator("loc.adults.dpdn"));
+		CommonUtility.clickElement(loc.getbookingoptionlocator("loc.adultsnumber.btn"));
+		CommonUtility.clickElement(loc.getbookingoptionlocator("loc.children.dpdn"));
+		CommonUtility.clickElement(loc.getbookingoptionlocator("loc.chilnumber.btn"));
 	}
 
 	/**
@@ -35,12 +37,12 @@ public class BookingOptionPage {
 	 */
 	public static void bookingPageValidate(FindLocators loc, FindValidateData validatedata) {
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String actual = CommonUtility.getText(loc.getlocator("loc.bookingoption.totalcost.txt"));
+		String actual = CommonUtility.getText(loc.getbookingoptionlocator("loc.bookingoption.totalcost.txt"));
 		Assert.assertEquals(actual, validatedata.getData("bookingpage.totalamount_data"), "Failed");
 		log.info("The total amount in booking option page: " + actual);
 		log.info("The total amount is validate succesfully");

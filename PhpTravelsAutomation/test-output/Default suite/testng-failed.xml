@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.phptravels.testscripts.HomePageTestScript">
+      <class name="com.atmecs.phptravels.testscripts.BookingOptionTestScript">
         <methods>
-          <include name="invalidCheckinDate"/>
+          <include name="BookingOption"/>
+        </methods>
+      </class> <!-- com.atmecs.phptravels.testscripts.BookingOptionTestScript -->
+      <class name="com.atmecs.phptravels.testscripts.BookingSummaryPageTest">
+        <methods>
+          <include name="tourNameValidate"/>
+          <include name="personalDetailsInput" invocation-numbers="0"/>
+          <include name="guestInfoInput" invocation-numbers="0 1 2 3"/>
+          <include name="amountValidateAfterAddingExtra"/>
+          <include name="amountValidateBeforeAddingExtra"/>
+        </methods>
+      </class> <!-- com.atmecs.phptravels.testscripts.BookingSummaryPageTest -->
+      <class name="com.atmecs.phptravels.testscripts.InvoicePageTest">
+        <methods>
+          <include name="invoicePageValidate"/>
           <include name="intitailizeBrowser"/>
         </methods>
-      </class> <!-- com.atmecs.phptravels.testscripts.HomePageTestScript -->
+      </class> <!-- com.atmecs.phptravels.testscripts.InvoicePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

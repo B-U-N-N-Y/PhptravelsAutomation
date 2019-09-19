@@ -9,10 +9,8 @@ import com.atmecs.phptravelsautomation.dataprovider.PersonalDetails;
 import com.atmecs.phptravelsautomation.helpers.CommonUtility;
 import com.atmecs.phptravelsautomation.pages.BookingSummaryPage;
 
-public class BookingSummaryPageTest {
-
-	FindLocators loc = new FindLocators();
-	FindValidateData validatedata = new FindValidateData();
+public class BookingSummaryPageTest extends BookingOptionTestScript{
+	
 	static int counter = 0;
 
 	@Test(priority = 4, dataProvider = "personal_details", dataProviderClass = PersonalDetails.class)
@@ -23,7 +21,6 @@ public class BookingSummaryPageTest {
 
 	@Test(priority = 5, dataProvider = "guest_details", dataProviderClass = GuestDetails.class)
 	public void guestInfoInput(String[] data) {
-		System.out.println(counter);
 		BookingSummaryPage.guestInfo(loc, data[0], data[1], data[2], counter);
 		counter++;
 	}
@@ -41,7 +38,7 @@ public class BookingSummaryPageTest {
 	@Test(priority = 8)
 	public void amountValidateBeforeAddingExtra() {
 		BookingSummaryPage.bookingSummaryTotalAmountBeforeExtra(loc, validatedata);
-		CommonUtility.clickElement(loc.getlocator("loc.confirmbooking.btn"));
+		CommonUtility.clickElement(loc.getbookingsummarylocator("loc.confirmbooking.btn"));
 	}
 
 }

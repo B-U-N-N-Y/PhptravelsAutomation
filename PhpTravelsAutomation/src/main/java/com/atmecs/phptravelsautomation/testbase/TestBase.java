@@ -10,14 +10,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
 
 import com.atmecs.phptravelsautomation.constants.FilePath;
+import com.atmecs.phptravelsautomation.extentreports.ExtentReport;
 import com.atmecs.phptravelsautomation.utils.ReadPropertiesFile;
 /**
  * This class operate to choose the driver 
  * @author arjun.santra
  *
  */
-public class TestBase {
-	public static WebDriver driver;
+public class TestBase extends ExtentReport{
+
 	Properties baseClass;
 	String url;
 	public static String browser;
@@ -38,7 +39,7 @@ public class TestBase {
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
+			System.setProperty("webdriver.gecko.driver", "C:/Users/ARJUN.SANTRA/Downloads/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 
