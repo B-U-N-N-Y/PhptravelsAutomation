@@ -25,12 +25,12 @@ public class HomePage {
 		if (!wb.getText().equals("USD")) {
 			action.click(wb).build().perform();
 			CommonUtility.clickElement(loc.gethomepagelocator("loc.usdcurrency.btn"));
-			try {
-				Thread.sleep(5000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+//			try {
+//				Thread.sleep(5000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
 		}
 
 	}
@@ -42,7 +42,7 @@ public class HomePage {
 	 * @param validatedata
 	 */
 	public static void invalidCheckinDateValidation(WebDriver driver, FindLocators loc, FindValidateData validatedata) {
-
+		if(CommonUtility.isElementVisible(loc.gethomepagelocator("loc.acceptcookie.btn")))
 		CommonUtility.clickElement(loc.gethomepagelocator("loc.acceptcookie.btn"));
 		CommonUtility.clickElement(loc.gethomepagelocator("loc.tours.btn"));
 		CommonUtility.clickElement(loc.gethomepagelocator("loc.checkindate.btn"));
@@ -94,6 +94,7 @@ public class HomePage {
 	}
 
 	public static void homePageVerification(WebDriver driver, FindValidateData validateData) {
+		
 		Assert.assertEquals(driver.getTitle(), validateData.getData("homepage.title_validate_data"),
 				"Home page is not landing");
 		log.info("Home page title: " + driver.getTitle());

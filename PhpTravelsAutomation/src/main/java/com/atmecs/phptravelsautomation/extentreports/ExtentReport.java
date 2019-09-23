@@ -55,8 +55,9 @@ public class ExtentReport {
 	}
 
 	/**
-	 * In this method, According to the different scenarios of test results
-	 * screenshots are captured
+	 * In this method, According to the different scenar ios of test results
+	 * screenshots are captured \
+	 * 
 	 * 
 	 * @param ITestResult result
 	 */
@@ -64,6 +65,7 @@ public class ExtentReport {
 	public static void tearDown(ITestResult result) throws Exception {
 
 		if (result.getStatus() == ITestResult.FAILURE) {
+
 			logger.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getName()); // to add name in extent report
 			logger.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to add error/exception in
 			// extent report
@@ -76,6 +78,7 @@ public class ExtentReport {
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(LogStatus.SKIP, "Test Case SKIPPED IS " + result.getName());
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
+
 			logger.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
 
 		}

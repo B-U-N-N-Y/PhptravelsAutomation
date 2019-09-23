@@ -11,6 +11,7 @@ com\atmecs\phptravelsautomation\helpers\CommonUtility$5.class
 com\atmecs\phptravelsautomation\utils\ReadPropertiesFile.class
 com\atmecs\phptravelsautomation\utils\ProvideData.class
 com\atmecs\phptravelsautomation\pages\HomePage.class
+com\atmecs\phptravelsautomation\extentreports\ExtentReport.class
 com\atmecs\phptravelsautomation\dataprovider\HomePageData.class
 com\atmecs\phptravelsautomation\dataprovider\PersonalDetails.class
 com\atmecs\phptravelsautomation\pages\InvoicePage.class

@@ -1,70 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-19T08:55:44Z" name="Suite" finished-at="2019-09-19T08:55:44Z" duration-ms="0">
+  <suite name="Default suite" duration-ms="20897" started-at="2019-09-20T06:34:33Z" finished-at="2019-09-20T06:34:54Z">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
-  <suite started-at="2019-09-19T08:54:51Z" name="Suite (0)" finished-at="2019-09-19T08:55:42Z" duration-ms="50811">
-    <groups>
-    </groups>
-    <test started-at="2019-09-19T08:54:51Z" name="Test" finished-at="2019-09-19T08:55:42Z" duration-ms="50811">
-      <class name="com.atmecs.phptravels.testscripts.InvoicePageTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:36Z" name="startReport" finished-at="2019-09-19T08:54:36Z" duration-ms="316" status="PASS">
+    <test name="Default test" duration-ms="20897" started-at="2019-09-20T06:34:33Z" finished-at="2019-09-20T06:34:54Z">
+      <class name="com.atmecs.phptravels.testscripts.HomePageTestScript">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="startReport" is-config="true" duration-ms="289" started-at="2019-09-20T06:34:20Z" finished-at="2019-09-20T06:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:36Z" name="intitailizeBrowser" finished-at="2019-09-19T08:54:51Z" depends-on-methods="com.atmecs.phptravelsautomation.extentreports.ExtentReport.startReport" duration-ms="15546" status="PASS">
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="intitailizeBrowser" is-config="true" duration-ms="12491" started-at="2019-09-20T06:34:20Z" depends-on-methods="com.atmecs.phptravelsautomation.extentreports.ExtentReport.startReport" finished-at="2019-09-20T06:34:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intitailizeBrowser -->
-        <test-method signature="landingPageValidation()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:52Z" name="landingPageValidation" finished-at="2019-09-19T08:54:52Z" duration-ms="168" status="PASS">
+        <test-method status="PASS" signature="landingPageValidation()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="landingPageValidation" duration-ms="2483" started-at="2019-09-20T06:34:33Z" finished-at="2019-09-20T06:34:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageValidation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:52Z" name="tearDown" finished-at="2019-09-19T08:54:52Z" duration-ms="8" status="PASS">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="tearDown" is-config="true" duration-ms="13" started-at="2019-09-20T06:34:35Z" finished-at="2019-09-20T06:34:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=landingPageValidation status=SUCCESS method=HomePageTestScript.landingPageValidation()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
+                <![CDATA[[TestResult name=landingPageValidation status=SUCCESS method=HomePageTestScript.landingPageValidation()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="invalidCheckinDate()[pri:1, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:52Z" name="invalidCheckinDate" finished-at="2019-09-19T08:54:55Z" duration-ms="3203" status="PASS">
+        <test-method status="PASS" signature="invalidCheckinDate()[pri:1, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="invalidCheckinDate" duration-ms="9304" started-at="2019-09-20T06:34:35Z" finished-at="2019-09-20T06:34:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidCheckinDate -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:55Z" name="tearDown" finished-at="2019-09-19T08:54:55Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-09-20T06:34:45Z" finished-at="2019-09-20T06:34:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidCheckinDate status=SUCCESS method=HomePageTestScript.invalidCheckinDate()[pri:1, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
+                <![CDATA[[TestResult name=invalidCheckinDate status=SUCCESS method=HomePageTestScript.invalidCheckinDate()[pri:1, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="cityInputValidation()[pri:2, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:55Z" name="cityInputValidation" finished-at="2019-09-19T08:54:58Z" duration-ms="3184" status="PASS">
+        <test-method status="PASS" signature="cityInputValidation()[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="cityInputValidation" duration-ms="3744" started-at="2019-09-20T06:34:45Z" finished-at="2019-09-20T06:34:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cityInputValidation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:58Z" name="tearDown" finished-at="2019-09-19T08:54:58Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-09-20T06:34:48Z" finished-at="2019-09-20T06:34:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cityInputValidation status=SUCCESS method=HomePageTestScript.cityInputValidation()[pri:2, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
+                <![CDATA[[TestResult name=cityInputValidation status=SUCCESS method=HomePageTestScript.cityInputValidation()[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:54:59Z" name="tourSearch" data-provider="home_page_data" finished-at="2019-09-19T08:55:03Z" duration-ms="3806" status="PASS">
+        <test-method status="PASS" signature="tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="tourSearch" duration-ms="3897" started-at="2019-09-20T06:34:50Z" data-provider="home_page_data" finished-at="2019-09-20T06:34:54Z">
           <params>
             <param index="0">
               <value>
@@ -80,207 +76,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tourSearch -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:03Z" name="tearDown" finished-at="2019-09-19T08:55:03Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-20T06:34:54Z" finished-at="2019-09-20T06:34:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tourSearch status=SUCCESS method=HomePageTestScript.tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
+                <![CDATA[[TestResult name=tourSearch status=SUCCESS method=HomePageTestScript.tourSearch(java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="BookingOption()[pri:3, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:03Z" name="BookingOption" finished-at="2019-09-19T08:55:17Z" duration-ms="13413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BookingOption -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:17Z" name="tearDown" finished-at="2019-09-19T08:55:17Z" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=BookingOption status=SUCCESS method=BookingOptionTestScript.BookingOption()[pri:3, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="personalDetailsInput([Ljava.lang.String;)[pri:4, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:17Z" name="personalDetailsInput" data-provider="personal_details" finished-at="2019-09-19T08:55:21Z" duration-ms="4672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@3eda0aeb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- personalDetailsInput -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:21Z" name="tearDown" finished-at="2019-09-19T08:55:21Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=personalDetailsInput status=SUCCESS method=BookingSummaryPageTest.personalDetailsInput([Ljava.lang.String;)[pri:4, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:22Z" name="guestInfoInput" data-provider="guest_details" finished-at="2019-09-19T08:55:22Z" duration-ms="876" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@1c9e07c6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestInfoInput -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:22Z" name="tearDown" finished-at="2019-09-19T08:55:22Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestInfoInput status=SUCCESS method=BookingSummaryPageTest.guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:22Z" name="guestInfoInput" data-provider="guest_details" finished-at="2019-09-19T08:55:23Z" duration-ms="864" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@73010765]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestInfoInput -->
-        <test-method signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:23Z" name="guestInfoInput" data-provider="guest_details" finished-at="2019-09-19T08:55:24Z" duration-ms="882" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@2b10ace9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestInfoInput -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:23Z" name="tearDown" finished-at="2019-09-19T08:55:23Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestInfoInput status=SUCCESS method=BookingSummaryPageTest.guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:24Z" name="guestInfoInput" data-provider="guest_details" finished-at="2019-09-19T08:55:25Z" duration-ms="928" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@52169758]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestInfoInput -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:24Z" name="tearDown" finished-at="2019-09-19T08:55:24Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestInfoInput status=SUCCESS method=BookingSummaryPageTest.guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="amountValidateAfterAddingExtra()[pri:6, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:25Z" name="amountValidateAfterAddingExtra" finished-at="2019-09-19T08:55:25Z" duration-ms="145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amountValidateAfterAddingExtra -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:25Z" name="tearDown" finished-at="2019-09-19T08:55:25Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestInfoInput status=SUCCESS method=BookingSummaryPageTest.guestInfoInput([Ljava.lang.String;)[pri:5, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:25Z" name="tearDown" finished-at="2019-09-19T08:55:25Z" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=amountValidateAfterAddingExtra status=SUCCESS method=BookingSummaryPageTest.amountValidateAfterAddingExtra()[pri:6, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="tourNameValidate()[pri:7, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:25Z" name="tourNameValidate" finished-at="2019-09-19T08:55:26Z" duration-ms="1096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tourNameValidate -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:26Z" name="tearDown" finished-at="2019-09-19T08:55:26Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tourNameValidate status=SUCCESS method=BookingSummaryPageTest.tourNameValidate()[pri:7, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="amountValidateBeforeAddingExtra()[pri:8, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:26Z" name="amountValidateBeforeAddingExtra" finished-at="2019-09-19T08:55:30Z" duration-ms="3332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amountValidateBeforeAddingExtra -->
-        <test-method signature="invoicePageValidate()[pri:9, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:30Z" name="invoicePageValidate" finished-at="2019-09-19T08:55:42Z" duration-ms="12541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invoicePageValidate -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:30Z" name="tearDown" finished-at="2019-09-19T08:55:30Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=amountValidateBeforeAddingExtra status=SUCCESS method=BookingSummaryPageTest.amountValidateBeforeAddingExtra()[pri:8, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:42Z" name="tearDown" finished-at="2019-09-19T08:55:42Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=invoicePageValidate status=SUCCESS method=InvoicePageTest.invoicePageValidate()[pri:9, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.atmecs.phptravels.testscripts.InvoicePageTest@7b227d8d]" started-at="2019-09-19T08:55:42Z" name="endReport" finished-at="2019-09-19T08:55:44Z" duration-ms="1664" status="PASS">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.phptravels.testscripts.HomePageTestScript@59ec2012]" name="endReport" is-config="true" duration-ms="3484" started-at="2019-09-20T06:34:54Z" finished-at="2019-09-20T06:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.atmecs.phptravels.testscripts.InvoicePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite (0) -->
+      </class> <!-- com.atmecs.phptravels.testscripts.HomePageTestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

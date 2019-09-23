@@ -39,7 +39,7 @@ public class TestBase extends ExtentReport{
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "C:/Users/ARJUN.SANTRA/Downloads/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
 			driver = new FirefoxDriver();
 		}
 

@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]">
   <listeners>
     <listener class-name="com.atmecs.phptravelsautomation.extentreports.ExtentReporter"/>
   </listeners>
-  <test thread-count="5" name="Test1(failed)" verbose="0">
-    <classes>
-      <class name="com.atmecs.phptravels.testscripts.HomePageTestScript">
-        <methods>
-          <include name="invalidCheckinDate"/>
-          <include name="processEnd"/>
-          <include name="intitailizeBrowser"/>
-        </methods>
-      </class> <!-- com.atmecs.phptravels.testscripts.HomePageTestScript -->
-    </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test2(failed)" verbose="0">
-    <classes>
-      <class name="com.atmecs.phptravels.testscripts.BookingOptionTestScript">
-        <methods>
-          <include name="BookingOption"/>
-        </methods>
-      </class> <!-- com.atmecs.phptravels.testscripts.BookingOptionTestScript -->
-    </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" name="Test3(failed)" verbose="0">
-    <classes>
-      <class name="com.atmecs.phptravels.testscripts.BookingSummaryPageTest">
-        <methods>
-          <include name="personalDetailsInput" invocation-numbers="0"/>
-          <include name="guestInfoInput" invocation-numbers="0 1 2 3"/>
-          <include name="amountValidateAfterAddingExtra"/>
-          <include name="amountValidateBeforeAddingExtra"/>
-        </methods>
-      </class> <!-- com.atmecs.phptravels.testscripts.BookingSummaryPageTest -->
-    </classes>
-  </test> <!-- Test3(failed) -->
-  <test thread-count="5" name="Test4(failed)" verbose="0">
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
       <class name="com.atmecs.phptravels.testscripts.InvoicePageTest">
         <methods>
+          <include name="startReport"/>
+          <include name="tourNameValidate"/>
+          <include name="endReport"/>
+          <include name="personalDetailsInput"/>
+          <include name="landingPageValidation"/>
+          <include name="guestInfoInput"/>
+          <include name="tearDown"/>
+          <include name="amountValidateAfterAddingExtra"/>
+          <include name="BookingOption"/>
+          <include name="amountValidateBeforeAddingExtra"/>
           <include name="invoicePageValidate"/>
+          <include name="cityInputValidation"/>
+          <include name="invalidCheckinDate"/>
+          <include name="tourSearch"/>
           <include name="intitailizeBrowser"/>
         </methods>
       </class> <!-- com.atmecs.phptravels.testscripts.InvoicePageTest -->
     </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite (0)] -->

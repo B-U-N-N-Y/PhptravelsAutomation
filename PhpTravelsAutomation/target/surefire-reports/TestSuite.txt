@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.461 s - in TestSuite
+Tests run: 30, Failures: 1, Errors: 0, Skipped: 29, Time elapsed: 6.818 s <<< FAILURE! - in TestSuite
+intitailizeBrowser(com.atmecs.phptravels.testscripts.InvoicePageTest)  Time elapsed: 3.788 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E67C53+1473619]
+	Ordinal0 [0x00DEAD71+961905]
+	Ordinal0 [0x00D742B3+475827]
+	Ordinal0 [0x00D0B77B+46971]
+	Ordinal0 [0x00D29149+168265]
+	Ordinal0 [0x00D28D1D+167197]
+	Ordinal0 [0x00D2742B+160811]
+	Ordinal0 [0x00D10AE6+68326]
+	Ordinal0 [0x00D11BF0+72688]
+	Ordinal0 [0x00D11B89+72585]
+	Ordinal0 [0x00E04B37+1067831]
+	GetHandleVerifier [0x00F06845+506677]
+	GetHandleVerifier [0x00F065E0+506064]
+	GetHandleVerifier [0x00F0D188+533624]
+	GetHandleVerifier [0x00F0701A+508682]
+	Ordinal0 [0x00DFC226+1032742]
+	Ordinal0 [0x00DFC09F+1032351]
+	Ordinal0 [0x00E06A4B+1075787]
+	Ordinal0 [0x00E06BB3+1076147]
+	Ordinal0 [0x00E05B65+1071973]
+	BaseThreadInitThunk [0x762060C9+25]
+	RtlGetAppContainerNamedObjectPath [0x772A7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x772A7A64+180]
+
+

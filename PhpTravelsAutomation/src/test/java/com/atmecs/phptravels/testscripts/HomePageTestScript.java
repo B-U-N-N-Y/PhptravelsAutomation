@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.atmecs.phptravelsautomation.constants.FindLocators;
 import com.atmecs.phptravelsautomation.constants.FindValidateData;
 import com.atmecs.phptravelsautomation.dataprovider.HomePageData;
+import com.atmecs.phptravelsautomation.helpers.CommonUtility;
 import com.atmecs.phptravelsautomation.pages.HomePage;
 import com.atmecs.phptravelsautomation.testbase.TestBase;
 
@@ -15,7 +16,7 @@ public class HomePageTestScript extends TestBase {
 	@Test(priority = 0)
 	public void landingPageValidation() {
 		logger = extent.startTest("Php travels");
-
+		CommonUtility.clickElement(loc.gethomepagelocator("loc.buynowframe.btn"));
 		HomePage.homePageVerification(driver, validatedata);
 	}
 
